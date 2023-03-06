@@ -1,7 +1,0 @@
-latent_inputs = keras.Input(shape=(latent_dim))
-x = layers.Dense(units=np.prod(shape_before_flattening), activation="relu")(latent_inputs)
-x = layers.Reshape(shape_before_flattening)(x)
-x = layers.Conv2DTranspose(64, 3, activation="relu", strides=2, padding="same")(x)
-x = layers.Conv2DTranspose(32, 3, activation="relu", strides=2, padding="same")(x)
-decoder_outputs = layers.Conv2DTranspose(1, (3,3), activation="sigmoid", padding="same")(x)
-decoder = keras.Model(latent_inputs, decoder_outputs, name="decoder")

@@ -1,7 +1,6 @@
-# DD2434 Machine Learning, Advanced Course 2022
 This repository contains code templates, helper codes and data for Assignments.
 
-## Assignment 1A
+1A
 For the below questions, we provided you the data and some helper functions. 
 
 You **_must_** use the given data, but you don't have to use the provided helper codes. You can modify the helper codes however you want.
@@ -10,7 +9,7 @@ In order to use the provided data easily, we suggest you to use Python.
 
 Let us know if you face any problems.
 
-### Task 1.2: Likelihood of a Tree Graphical Model
+1.2: Likelihood of a Tree Graphical Model
 For this task, we provided three different trees (small, medium, large). Each tree has 5 samples.
 
 We want you to report the likelihoods of samples (_15 values in total_).
@@ -26,6 +25,6 @@ You can use packages such as `NetworkX`, `ete3` to work with the tree and graph 
 
 We suggest you to run _Tree.py_ first to see the overall structure. 
 
-### Task 1.4: Super Epicentra - Expectation Maximization
+1.4: Super Epicentra - Expectation Maximization
 You are given the 2-dimensional locations of the 100 earthquakes, `X.txt`, and their strengths, `S.txt`.
 
